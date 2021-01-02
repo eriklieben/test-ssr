@@ -9,8 +9,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "aurelia": "dev",
-    "markdown-it": "^12.0.3",
-    "monaco-editor": "^0.21.2"
+    "markdown-it": "^12.0.3"
   },
   "devDependencies": {
     "@aurelia/testing": "dev",

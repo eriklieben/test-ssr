@@ -9,10 +9,7 @@ import shared from './shared.css';
     .register(StyleConfiguration.shadowDOM({
       sharedStyles: [shared]
     }))
-    .register(RouterConfiguration)
-      // To use HTML5 pushState routes, replace previous line with the following
-      // customized router config.
-      // .register(RouterConfiguration.customize({ useUrlFragmentHash: false }))
+    .register(RouterConfiguration.customize({ useUrlFragmentHash: false }))
     .app(MyApp)
     .start();
 
@@ -23,5 +20,6 @@ import shared from './shared.css';
 			});
 			el.setAttribute('data-ssr', 'hydrated');
 		}
-	);
-})();  
+  );
+  
+})();
