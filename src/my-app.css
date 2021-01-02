@@ -1,0 +1,13 @@
+
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  height: 100vh;
+}k die 
+
+markdown-preview {
+  font-family: Poppins;
+}
